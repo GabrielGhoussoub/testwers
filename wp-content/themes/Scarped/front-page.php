@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <body data-rsssl="1" class="home page-template page-template-page_HOME page-template-page_HOME-php page page-id-2 unknown" style="">
-  <div id="preloaderLoaded" class="preloader loaded disapp"> <img class="preloader__img" id="prel_img" src="images/svg/preloader.svg" style="opacity: 0.2;">
+  <div id="preloaderLoaded" class="preloader loaded disapp"> <img class="preloader__img" id="prel_img" src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/preloader.svg" style="opacity: 0.2;">
     <div class="preloader__countWrap">
       <div class="preloader__countInner">
         <div class="preloader__count red sxl text light schnyder-xl" id="year">1857</div>
@@ -9,7 +9,7 @@
     </div>
     <div class="preloader__bottom hidden-xs hidden-sm hidden-lg">
       <div class="preloader__slide white helvetica text xxs"><strong id="prel-txt">Scroll or drag sideways to navigate</strong></div>
-      <div class="preloader__arrows"> <img src="images/svg/preloader-icons.svg"></div>
+      <div class="preloader__arrows"> <img src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/preloader-icons.svg"></div>
     </div>
   </div>
   <div class="preloader__mask" id="prel_mask" style="transform: translate(0px, -100vh);"></div>
@@ -92,7 +92,7 @@
     <div class="progBar hidden-xs" id="prog">
       <div class="progBar__inner" id="progbar"></div>
     </div>
-    <div class="mainNav"><img class="mainNav__img" src="images/svg/preloader.svg">
+    <div class="mainNav"><img class="mainNav__img" src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/preloader.svg">
       <div class="mainNav__close close"><span class="close__curt"></span></div>
       <div class="mainNav__wrap">
         <div class="mainNav__col mainNav__col--left">
@@ -140,7 +140,7 @@
     <div id="main_cont">
       <section class="homeWrapper" id="home-drag" data-scroll-container="">
         <article class="homeSec is-inview" id="home-visual" data-scroll-section="" data-scroll="" data-header="transparent" data-scroll-repeat="true">
-          <div class="homeSec__inner vis" style="height: 568px;"><video class="vis__vid" id="home-video-1" data-src="/bert-loop-3.mp4" muted="" loop="" playsinline="" autoplay="" poster="video/poster.jpg" preload="auto">
+          <div class="homeSec__inner vis" style="height: 568px;"><video class="vis__vid" id="home-video-1" data-src="/bert-loop-3.mp4" muted="" loop="" playsinline="" autoplay="" poster="<?php echo site_url(); ?>/wp-content/uploads/video/poster.jpg" preload="auto">
               <source src="/bert-loop-3.mp4" type="video/mp4">
               <p>Your user agent does not support the HTML5 Video element.</p>
             </video>
@@ -150,20 +150,20 @@
               <div class="vis__block" style="opacity: 1; transform: translate(0px, 0px);">is our style</div>
             </h1>
             <div class="vis__slide white helvetica text xxs bold hidden-xs hidden-sm hidden-lg">Scroll or drag sideways to navigate</div>
-            <div class="vis__arrow magic-hover magic-hover__square" id="home-visual-btn"><img class="" src="images/svg/home-visual-arrow.svg"><span class="vis__inner btn btn-mm-light magic-hover magic-hover__square" style="background: #EB5757; position: absolute; z-index: 1000; top: 0;left: 0;"></span></div>
+            <div class="vis__arrow magic-hover magic-hover__square" id="home-visual-btn"><img class="" src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/home-visual-arrow.svg"><span class="vis__inner btn btn-mm-light magic-hover magic-hover__square" style="background: #EB5757; position: absolute; z-index: 1000; top: 0;left: 0;"></span></div>
           </div>
         </article>
         <article class="homeSec" id="home-sec-bert" data-scroll="" data-scroll-offset="30%" data-scroll-section="" data-header="beige">
           <div class="homeSec__inner bert">
             <div class="homeSec__col bert__col--text" data-scroll="" data-scroll-offset="30%" data-header="beige">
-              <div class="bert__wrap"><img class="bert__img" src="images/svg/bertani-red.svg">
+              <div class="bert__wrap"><img class="bert__img" src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/bertani-red.svg">
                 <h1 class="bert__tit title neue-haas bold mml">We have never<br> betrayed<br> our style<br> and we never will</h1>
                 <div class="bert__text text sm schnyder light">
                   <p class="p1">Bertani’s uniqueness lies in<br> its very style. We have known how to adapt<br> it over time while rigorously respecting<br> our ties to tradition.</p>
                 </div>
               </div>
             </div>
-            <div class="homeSec__imgWrap"><img data-scroll="" data-scroll-speed="-2" data-scroll-repeat="" data-header="beige" class="bert__feat homeSec__feat" src="wp-content/uploads/2021/02/bertani.jpg" alt=""></div>
+            <div class="homeSec__imgWrap"><img data-scroll="" data-scroll-speed="-2" data-scroll-repeat="" data-header="beige" class="bert__feat homeSec__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/02/bertani.jpg" alt=""></div>
           </div>
         </article>
         <article class="homeSec homeSec--comp" data-scroll="" data-scroll-section="" data-header="beige" data-scroll-repeat="true">
@@ -182,7 +182,7 @@
                 <div id="comp-btn" class="button__round magic-hover magic-hover__square"></div>
               </a>
             </div>
-            <div class="homeSec__imgWrap"><img class="comp__feat homeSec__feat" data-scroll="" data-scroll-speed="-2" src="wp-content/uploads/2021/02/company-scaled.jpg" alt=""></div>
+            <div class="homeSec__imgWrap"><img class="comp__feat homeSec__feat" data-scroll="" data-scroll-speed="-2" src="<?php echo site_url(); ?>/wp-content/uploads/2021/02/company-scaled.jpg" alt=""></div>
           </div>
         </article>
         <article class="homeSec homeTrad" data-scroll="" data-scroll-section="" data-scroll-repeat="true" data-scroll-offset="50%" id="tradition" data-header="brown">
@@ -202,7 +202,7 @@
         </article>
         <article class="homeSec" id="home-vini" data-scroll="" data-scroll-repeat="true" data-scroll-section="" data-header="beige">
           <div class="homeSec__inner wines" data-scroll="">
-            <div class="homeSec__imgWrap"><img data-scroll="" data-scroll-speed="2" class="homeSec__feat" src="wp-content/uploads/2021/02/vini-1.jpg"></div>
+            <div class="homeSec__imgWrap"><img data-scroll="" data-scroll-speed="2" class="homeSec__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/02/vini-1.jpg"></div>
             <div class="homeSec__col wines__col--text" data-scroll="" data-scroll-offset="30%">
               <div class="wines__wrap wineList">
                 <div class="wineList__el">
@@ -243,7 +243,7 @@
                 </div>
               </div>
             </div>
-            <div class="wineBg lazy" id="home-wine-bg"><video class="vis__vid" id="home-video-2" data-src="/loop_vini_bertani_new-2.mp4" muted="" loop="" playsinline="" autoplay="" poster="wp-content/uploads/2021/02/vini-bg-scaled.jpg" preload="auto">
+            <div class="wineBg lazy" id="home-wine-bg"><video class="vis__vid" id="home-video-2" data-src="/loop_vini_bertani_new-2.mp4" muted="" loop="" playsinline="" autoplay="" poster="<?php echo site_url(); ?>/wp-content/uploads/2021/02/vini-bg-scaled.jpg" preload="auto">
                 <source src="/loop_vini_bertani_new-2.mp4" type="video/mp4">
                 <p>Your user agent does not support the HTML5 Video element.</p>
               </video>
@@ -261,12 +261,12 @@
         </article>
         <article class="homeSec text-center" id="home-terr" data-scroll-offset="40%" data-scroll="" data-header="brown" data-scroll-section="" data-scroll-repeat="true">
           <div class="num terr__num ssxl schnyder bold" data-scroll="" data-scroll-sticky="" data-scroll-target="#home-terr" data-header="brown">04</div>
-          <div class="terr__label white neue-haas ssm bold" data-scroll="" data-scroll-sticky="" data-scroll-target="#home-terr" data-header="brown">Territory</div><img class="terr__bg hidden-xs" src="images/svg/territory.svg" data-scroll="" data-scroll-sticky="" data-scroll-target="#home-terr" data-header="brown">
+          <div class="terr__label white neue-haas ssm bold" data-scroll="" data-scroll-sticky="" data-scroll-target="#home-terr" data-header="brown">Territory</div><img class="terr__bg hidden-xs" src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/territory.svg" data-scroll="" data-scroll-sticky="" data-scroll-target="#home-terr" data-header="brown">
           <div class="homeSec__inner">
             <div class="terr">
-              <h1 class="terr__title white neue-haas xxl bold">Proudly<br> Valpolicella</h1><img class="terr__bar" src="images/svg/territory-sep.svg" alt="">
+              <h1 class="terr__title white neue-haas xxl bold">Proudly<br> Valpolicella</h1><img class="terr__bar" src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/territory-sep.svg" alt="">
               <div id="mask-wrap">
-                <div class="terr__imgMask"><img src="wp-content/uploads/2021/02/territory.jpg" alt=""></div>
+                <div class="terr__imgMask"><img src="<?php echo site_url(); ?>/wp-content/uploads/2021/02/territory.jpg" alt=""></div>
               </div>
             </div>
             <div class="buss" data-scroll="" data-header="brown">
@@ -283,7 +283,7 @@
             <h1 class="homeNews__title title red neue-haas">News &amp; Press</h1>
             <div class="homeNews__wrap">
               <div class="homeNews__single"><a href="news-press/pop-up-store-rinascente/index.html" title="BERTANI Pop-up store at Rinascente, Milano." class="homeNews__block">
-                  <div class="homeNews__featWrap"><img class="homeNews__feat" src="wp-content/uploads/2021/09/Pop-Up-BANNER-SITO-600x600.jpg" alt="BERTANI Pop-up store at Rinascente, Milano."></div>
+                  <div class="homeNews__featWrap"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/09/Pop-Up-BANNER-SITO-600x600.jpg" alt="BERTANI Pop-up store at Rinascente, Milano."></div>
                   <div class="homeNews__date red schnyder demi xxs">13 September 2021</div>
                   <div class="homeNews__textWrap">
                     <h4 class="homeNews__mainTit title neue-haas bold s">BERTANI Pop-up store at Rinascente, Milano.</h4>
@@ -293,7 +293,7 @@
                   </div>
                 </a></div>
               <div class="homeNews__single"><a href="news-press/valpolicella-classico-superiore-ognisanti-2018-copy/index.html" title="Valpolicella Classico Superiore Ognisanti 2018  Copy" class="homeNews__block">
-                  <div class="homeNews__featWrap"><img class="homeNews__feat" src="wp-content/uploads/2021/04/ognisanti-3-bicchieri-600x600.jpg" alt="Valpolicella Classico Superiore Ognisanti 2018  Copy"></div>
+                  <div class="homeNews__featWrap"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/04/ognisanti-3-bicchieri-600x600.jpg" alt="Valpolicella Classico Superiore Ognisanti 2018  Copy"></div>
                   <div class="homeNews__date red schnyder demi xxs">13 September 2021</div>
                   <div class="homeNews__textWrap">
                     <h4 class="homeNews__mainTit title neue-haas bold s">Valpolicella Classico Superiore Ognisanti 2018 Copy</h4>
@@ -303,7 +303,7 @@
                   </div>
                 </a></div>
               <div class="homeNews__single"><a href="news-press/valpolicella-classico-superiore-ognisanti-2018/index.html" title="Valpolicella Classico Superiore Ognisanti 2018" class="homeNews__block last">
-                  <div class="homeNews__featWrap"><img class="homeNews__feat" src="wp-content/uploads/2021/04/ognisanti-3-bicchieri-600x600.jpg" alt="Valpolicella Classico Superiore Ognisanti 2018"></div>
+                  <div class="homeNews__featWrap"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/04/ognisanti-3-bicchieri-600x600.jpg" alt="Valpolicella Classico Superiore Ognisanti 2018"></div>
                   <div class="homeNews__date red schnyder demi xxs">14 October 2020</div>
                   <div class="homeNews__textWrap">
                     <h4 class="homeNews__mainTit title neue-haas bold s">Valpolicella Classico Superiore Ognisanti 2018</h4>

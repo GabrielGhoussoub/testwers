@@ -51,10 +51,10 @@
   <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed1ef2?url=https%3A%2F%2Fwww.bertani.net%2F&amp;format=xml"> <!-- Google Tag Manager for WordPress by gtm4wp.com -->
  
 
-  <link rel="icon" href="wp-content/uploads/2021/07/favicon.jpg" sizes="32x32">
-  <link rel="icon" href="wp-content/uploads/2021/07/favicon.jpg" sizes="192x192">
-  <link rel="apple-touch-icon" href="wp-content/uploads/2021/07/favicon.jpg">
-  <meta name="msapplication-TileImage" content="https://www.bertani.net/wp-content/uploads/2021/07/favicon.jpg">
+  <link rel="icon" href="<?php echo site_url(); ?>/wp-content/uploads/2021/07/favicon.jpg" sizes="32x32">
+  <link rel="icon" href="<?php echo site_url(); ?>/wp-content/uploads/2021/07/favicon.jpg" sizes="192x192">
+  <link rel="apple-touch-icon" href="<?php echo site_url(); ?>/wp-content/uploads/2021/07/favicon.jpg">
+  <meta name="msapplication-TileImage" content="https://www.bertani.net<?php echo site_url(); ?>/<?php echo site_url(); ?>/wp-content/uploads/2021/07/favicon.jpg">
   <link rel="preconnect" href="https://cdnjs.cloudflare.com/">
   <link rel="preconnect" href="https://ajax.googleapis.com/">
   <style type="text/css">

@@ -1,4 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <?php wp_head(); ?>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8"><!-- /Added by HTTrack -->
   <meta charset="UTF-8">
@@ -8,25 +12,9 @@
   <meta name="author" content="Studio Idee Materia">
   <meta name="Copyright" content="©2021 Bertani">
   <meta name="format-detection" content="telephone=no">
-  <!--IUB-COOKIE-SKIP-START-->
+
   
-  <script>
-    var iCallback = function() {};
-    var _iub = _iub || {};
-    if (typeof _iub.csConfiguration != 'undefined') {
-      if ('callback' in _iub.csConfiguration) {
-        if ('onConsentGiven' in _iub.csConfiguration.callback)
-          iCallback = _iub.csConfiguration.callback.onConsentGiven;
-        _iub.csConfiguration.callback.onConsentGiven = function() {
-          iCallback(); /* separator */
-          jQuery('noscript._no_script_iub').each(function(a, b) {
-            var el = jQuery(b);
-            el.after(el.html());
-          });
-        }
-      }
-    }
-  </script>
+
 
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="alternate" hreflang="en" href="index.html">

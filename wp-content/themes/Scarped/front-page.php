@@ -340,10 +340,10 @@
         html.classList.remove('eshop');
         html.classList.add('home');
         header.classList.add('white');
-      </script> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="http://cdn.iubenda.com/cookie_solution/empty.html" height="0" width="0" style="display:none;visibility:hidden" suppressedsrc="https://www.googletagmanager.com/ns.html?id=GTM-NT8TBK6" class=" _iub_cs_activate" data-iub-purposes="2"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
-    </div> <!-- chiusura contenuto per animazione -->
-  </main> <!-- chiusura smoothstate -->
-
+      
+        </script>
+        </div> 
+  </main> 
 
 
 <?php get_footer(); ?>

@@ -263,7 +263,7 @@
             <ul id="menu-main_nav" class="nav navbar-nav">
               <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21 menu-page-8"><a href="about-us">About us</a></li>
               <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20 menu-page-10"><a href="style">Style</a></li>
-              <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19 menu-page-12"><a href="wines">Wines</a></li>
+              <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19 menu-page-12"><a href="<?php echo get_post_type_archive_link('wine'); ?>">Wines</a></li>
               </ul>
           </nav>
         </div>
@@ -272,7 +272,7 @@
             <nav id="side_nav" class="menu-side_nav-container">
               <ul id="menu-side_nav" class="nav navbar-nav">
                 <li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29 menu-category-2"><a href="news-press">News &amp; Press</a></li>
-                <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 menu-page-16"><a href="contact">Contact</a></li>
+                <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 menu-page-16"><a href="contact-us">Contact</a></li>
               </ul>
             </nav>
 

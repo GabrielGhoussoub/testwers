@@ -2,6 +2,16 @@
   <?php wp_head(); ?>
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    
+    $(document).ready(function() {
+      await loadScript(function(){
+        document.getElementsByClassName("header").style.color = 'blue';
+      });
+      
+    });
+    
+    </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Studio Idee Materia">
@@ -28,9 +38,9 @@
     <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/2.json" />
     <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed1381.json?url=https%3A%2F%2Fwww.bertani.net%2F" />
     <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed1ef2?url=https%3A%2F%2Fwww.bertani.net%2F&amp;format=xml" />
-    <link rel="icon" href="wp-content/uploads/2021/07/favicon.jpg" sizes="32x32" />
-    <link rel="icon" href="wp-content/uploads/2021/07/favicon.jpg" sizes="192x192" />
-    <link rel="apple-touch-icon" href="wp-content/uploads/2021/07/favicon.jpg" />
+    <link rel="icon" href="<?php echo site_url(); ?>/wp-content/uploads/2021/07/favicon.jpg" sizes="32x32" />
+    <link rel="icon" href="<?php echo site_url(); ?>/wp-content/uploads/2021/07/favicon.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="<?php echo site_url(); ?>/wp-content/uploads/2021/07/favicon.jpg" />
     <meta name="msapplication-TileImage" content="https://www.bertani.net/wp-content/uploads/2021/07/favicon.jpg" />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com/" />
     <link rel="preconnect" href="https://ajax.googleapis.com/" />
@@ -161,8 +171,8 @@
     </style>
 </head>
 
-<body data-rsssl=1 class="home page-template page-template-page_HOME page-template-page_HOME-php page page-id-2 unknown">
-  <div id="preloader" class="preloader"> <img class="preloader__img" id="prel_img" src="wp-content/uploads/images/svg/preloader.svg" />
+<body function="onload()" data-rsssl=1 class="home page-template page-template-page_HOME page-template-page_HOME-php page page-id-2 unknown">
+  <div id="preloader" class="preloader"> <img class="preloader__img" id="prel_img" src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/preloader.svg" />
     <div class="preloader__countWrap">
       <div class="preloader__countInner">
         <div class="preloader__count red sxl text light schnyder-xl" id="year"></div>
@@ -170,13 +180,13 @@
     </div>
     <div class="preloader__bottom hidden-xs hidden-sm hidden-lg">
       <div class="preloader__slide white helvetica text xxs"><strong id="prel-txt"></strong></div>
-      <div class="preloader__arrows"> <img src="wp-content/uploads/images/svg/preloader-icons.svg" /></div>
+      <div class="preloader__arrows"> <img src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/preloader-icons.svg" /></div>
     </div>
   </div>
   <div class="preloader__mask" id="prel_mask"></div>
   <div id="change"></div>
   <main id="main">
-    <header class="header">
+    <header class="header" style="height: 700px;">
       <div class="header__hamburger ham magic-scale"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28.3" height="28.3" overflow="visible" viewbox="0 0 28.3 28.3" style="enable-background:new 0 0 28.3 28.3;" xml:space="preserve">
           <g>
             <rect x="1.9" y="1.9" width="24.6" height="3.2" />
@@ -184,7 +194,7 @@
             <rect x="1.9" y="23.2" width="24.6" height="3.2" />
           </g>
         </svg></div>
-      <a class="header__logo hidden-xs magic-scale" href="<?php echo site_url(); ?>" title="Bertani"><svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 24.1 140.8" overflow="visible" xml:space="preserve" width="24.1" height="140.8">
+      <a  href="<?php echo site_url(); ?>" title="Bertani"><svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 24.1 140.8" overflow="visible" xml:space="preserve" width="24.1" height="140.8">
           <g>
             <polygon points="0.6,128.4 0,128.4 0,134.4 24.1,134.4 24.1,133.9 0.6,133.9 	" /> <!-- <path d="M21.3,135.7c-0.7,0-1.3,0.2-1.8,0.7c-0.5,0.5-0.7,1.1-0.7,1.8c0,0.7,0.2,1.3,0.7,1.8c0.5,0.5,1.1,0.7,1.8,0.7c0.7,0,1.3-0.2,1.8-0.7c0.5-0.5,0.7-1.1,0.7-1.8c0-0.7-0.2-1.3-0.7-1.8C22.6,135.9,22,135.7,21.3,135.7z M22.8,139.8c-0.4,0.4-0.9,0.6-1.5,0.6c-0.6,0-1.1-0.2-1.5-0.6c-0.4-0.4-0.6-0.9-0.6-1.6c0-0.6,0.2-1.1,0.6-1.6c0.4-0.4,0.9-0.6,1.5-0.6c0.6,0,1.1,0.2,1.5,0.6c0.4,0.4,0.6,0.9,0.6,1.6C23.5,138.8,23.3,139.4,22.8,139.8z"/> <path d="M20,137.7H21v0.4c0,0.3,0,0.4-0.1,0.5c-0.1,0.2-0.3,0.3-0.6,0.3h-0.2l-0.1,0c0,0,0,0,0,0c0,0,0,0,0,0v0.5l0,0c0,0,0.1,0,0.1,0c0.1,0,0.1,0,0.2,0h0.2c0.1,0,0.3,0,0.4-0.2c0.1-0.1,0.2-0.3,0.3-0.5c0,0.2,0.1,0.3,0.1,0.4c0.1,0.2,0.3,0.3,0.5,0.3c0.3,0,0.6-0.1,0.7-0.4c0.1-0.2,0.1-0.4,0.1-0.8v-1H20V137.7z M21.4,137.7h1v0.4c0,0.3,0,0.5-0.1,0.6c-0.1,0.1-0.2,0.2-0.4,0.2c-0.2,0-0.4-0.1-0.4-0.3c0-0.1-0.1-0.3-0.1-0.5V137.7z"/> -->
             <rect x="1.2" y="128.5" width="22.8" height="4.7" />
@@ -255,14 +265,15 @@
     <div class="progBar hidden-xs" id="prog">
       <div class="progBar__inner" id="progbar"></div>
     </div>
-    <div class="mainNav"><img class="mainNav__img" src="wp-content/uploads/images/svg/preloader.svg" />
+    <div class="mainNav"><img class="mainNav__img" src="<?php echo site_url(); ?>/wp-content/uploads/images/svg/preloader.svg" />
       <div class="mainNav__close close"><span class="close__curt"></span></div>
       <div class="mainNav__wrap">
         <div class="mainNav__col mainNav__col--left">
           <nav id="main_nav" class="menu-main_nav-container">
             <ul id="menu-main_nav" class="nav navbar-nav">
-              <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21 menu-page-8"><a href="about-us">About us</a></li>
-              <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20 menu-page-10"><a href="style">Style</a></li>
+            <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21 menu-page-8"><a href="<?php echo home_url( '/' ) ?>">Home</a></li>
+              <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21 menu-page-8"><a href="<?php echo home_url( '/about-us' ) ?>">About us</a></li>
+              <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20 menu-page-10"><a href="<?php echo home_url( '/style' ) ?>">Style</a></li>
               <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19 menu-page-12"><a href="<?php echo get_post_type_archive_link('wine'); ?>">Wines</a></li>
               </ul>
           </nav>
@@ -271,8 +282,8 @@
           <div class="mainNav__mobileWrap">
             <nav id="side_nav" class="menu-side_nav-container">
               <ul id="menu-side_nav" class="nav navbar-nav">
-                <li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29 menu-category-2"><a href="news-press">News &amp; Press</a></li>
-                <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 menu-page-16"><a href="contact-us">Contact</a></li>
+                <li id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29 menu-category-2"><a href="<?php echo home_url( '/news-press' ) ?>">News &amp; Press</a></li>
+                <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 menu-page-16"><a href="<?php echo home_url( '/contact-us' ) ?>">Contact</a></li>
               </ul>
             </nav>
 
@@ -286,10 +297,10 @@
         </div>
         <div class="mainNav__priv">
           <ul>
-            <li><a class="magic-scale" href="privacy-policy" title="Privacy Policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-            <li><a class="magic-scale" href="cookie-policy" title="Cookie Policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a></li>
-            <li><a class="magic-scale" href="legal-notes" title="Legal Notes" target="_blank" rel="noopener noreferrer">Legal Notes</a></li>
+            <li><a class="magic-scale" href="<?php echo home_url( '/cookie-policy' ) ?>" title="Cookie Policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a></li>
+            <li><a class="magic-scale" href="<?php echo home_url( '/legal-notes' ) ?>" title="Legal Notes" target="_blank" rel="noopener noreferrer">Legal Notes</a></li>
           </ul>
         </div>
       </div>
     </div>
+    

@@ -36,17 +36,15 @@
             <div class="footer__menu neue-haas bold smallest text">
                 <nav id="footer_nav" class="menu-side_nav-container">
                     <ul id="menu-side_nav-1" class="nav navbar-nav">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1332 menu-page-1290"><a target="_blank" rel="noopener" href="https://www.bertani.net/e-shop/">E-shop</a></li>
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29 menu-category-2"><a href="https://www.bertani.net/category/news-press/">News &amp; Press</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 menu-page-16"><a href="https://www.bertani.net/contact/">Contact</a></li>
-                    </ul>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29 menu-category-2"><a href="<?php echo home_url('/news-press') ?>">News &amp; Press</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 menu-page-16"><a href="<?php echo home_url('/contact-us') ?>">Contact</a></li>
+                 </ul>
                 </nav>
             </div>
         </footer>
-    </section> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NT8TBK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+    </section> 
 </div> <!-- chiusura contenuto per animazione -->
 </main> <!-- chiusura smoothstate -->
-<!--<link href="/bertani/css/fonts.css" rel="preload" as="style"><link rel="stylesheet" href="/bertani/css/fonts.css"> -->
 
 
 <?php get_footer(); ?>

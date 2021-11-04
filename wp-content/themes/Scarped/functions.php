@@ -9,11 +9,9 @@ function enqueue_my_scripts()
 
   foreach (glob(get_template_directory() . '/js/*.js') as $file) {
     wp_enqueue_script($file, get_theme_file_uri('/js/' . basename($file)),NULL, '',true);
-    // $slug = basename(get_permalink());
-    // echo $slug;
+
     // if(get_the_ID() == 3) 
     // {
-    //   echo "lol";
     //   wp_enqueue_script('privacy-policy-js', get_theme_file_uri('/privacy/privacy-policy.js'), NULL, '', true);
     // }
   }
@@ -24,3 +22,11 @@ function enqueue_my_scripts()
   wp_enqueue_style('main_styles', get_stylesheet_uri());
 }
 add_action('wp_enqueue_scripts', 'enqueue_my_scripts');
+
+
+
+function enqueue_my_ShittyScripts()
+{
+wp_enqueue_script('ShittyShit', get_theme_file_uri('/privacy/StyleFixHopefully.js'), NULL, '');
+}
+add_action('wp_enqueue_scripts', 'enqueue_my_ShittyScripts');

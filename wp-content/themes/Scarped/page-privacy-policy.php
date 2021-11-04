@@ -6,23 +6,7 @@
                 <h1 class="commonPage__title title">Privacy Policy</h1>
                 <div class="commonPage__text text">
                     <p><a href="https://www.iubenda.com/privacy-policy/30879786" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iubenda-noiframe iub-body-embed" title="Privacy Policy">Privacy Policy</a>
-                        <script type="text/javascript">
-                            (function(w, d) {
-                                var loader = function() {
-                                    var s = d.createElement("script"),
-                                        tag = d.getElementsByTagName("script")[0];
-                                    s.src = "https://cdn.iubenda.com/iubenda.js";
-                                    tag.parentNode.insertBefore(s, tag);
-                                };
-                                if (w.addEventListener) {
-                                    w.addEventListener("load", loader, false);
-                                } else if (w.attachEvent) {
-                                    w.attachEvent("onload", loader);
-                                } else {
-                                    w.onload = loader;
-                                }
-                            })(window, document);
-                        </script>
+
                     </p>
                 </div>
             </div>
@@ -36,16 +20,33 @@
             <div class="footer__menu neue-haas bold smallest text">
                 <nav id="footer_nav" class="menu-side_nav-container">
                     <ul id="menu-side_nav-1" class="nav navbar-nav">
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1332 menu-page-1290"><a target="_blank" rel="noopener" href="https://www.bertani.net/e-shop/">E-shop</a></li>
-                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29 menu-category-2"><a href="https://www.bertani.net/category/news-press/">News &amp; Press</a></li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 menu-page-16"><a href="https://www.bertani.net/contact/">Contact</a></li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29 menu-category-2"><a href="<?php echo home_url('/news-press') ?>">News &amp; Press</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 menu-page-16"><a href="<?php echo home_url('/contact-us') ?>">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </footer>
-    </section> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NT8TBK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+    </section> <!-- Google Tag Manager (noscript) -->
 </div> <!-- chiusura contenuto per animazione -->
 </main> <!-- chiusura smoothstate -->
 <!--<link href="/bertani/css/fonts.css" rel="preload" as="style"><link rel="stylesheet" href="/bertani/css/fonts.css"> -->
-
+<script type="text/javascript">
+    /* Aggiungo classe per pagina all'html */
+    var html = document.querySelector('html'),
+        header = document.querySelector('header');
+    html.classList.remove('archive');
+    html.classList.remove('single');
+    html.classList.remove('bertani');
+    html.classList.remove('contact');
+    html.classList.remove('home');
+    html.classList.remove('style');
+    html.classList.remove('territory');
+    html.classList.remove('wine_sheet');
+    html.classList.remove('wines');
+    html.classList.remove('simple-page');
+    html.classList.remove('single');
+    html.classList.remove('eshop');
+    html.classList.add('simple-page');
+    header.classList.add('beige');
+</script>
 <?php get_footer(); ?>

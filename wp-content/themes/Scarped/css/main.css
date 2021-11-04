@@ -6409,7 +6409,7 @@ html.home #main_cont {
     align-items: flex-start;
     padding-left: 3.75rem;
     padding-right: 3.75rem;
-    padding-top: 140px
+    /* padding-top: 140px */
 }
 
 @media(max-width:991px) {
@@ -6515,7 +6515,7 @@ html.home #main_cont {
 }
 
 .wineDesc__col {
-    padding-top: 4.5833333333rem;
+    /* padding-top: 4.5833333333rem; */
     padding-bottom: 3.75rem
 }
 

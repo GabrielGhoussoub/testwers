@@ -2,11 +2,11 @@
 <div id="main_cont">
     <section class="pageWrapper" data-scroll-container>
         <article class="newsList" data-scroll-section>
-            <div class="pageIntro__top"><a class="pageIntro__btn button button--small button--blackWhite" href="../../contact/index.html"><strong class="button__label">Contact</strong><span class="button__round"></span></a></div>
+            <div class="pageIntro__top"><a class="pageIntro__btn button button--small button--blackWhite" href="<?php echo home_url( '/contact-us' ) ?>"><strong class="button__label">Contact</strong><span class="button__round"></span></a></div>
             <h1 class="newsList__title title neue-haas text-center xxl bold">News &amp; Press</h1>
-            <div class="homeNews__wrap"><a href="../../news-press/pop-up-store-rinascente/index.html" title="" class="homeNews__block">
+            <div class="homeNews__wrap"><a href="<?php echo home_url( '/news-press' ) ?>" title="" class="homeNews__block">
                     <div class="homeNews__featWrap">
-                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="wp-content/uploads/2021/09/Pop-Up-BANNER-SITO-600x600.jpg" alt="BERTANI Pop-up store at Rinascente, Milano."></div>
+                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/09/Pop-Up-BANNER-SITO-600x600.jpg" alt="BERTANI Pop-up store at Rinascente, Milano."></div>
                     </div>
                     <div class="homeNews__date red schnyder demi xxs">13 September 2021</div>
                     <div class="homeNews__textWrap">
@@ -17,7 +17,7 @@
                     </div>
                 </a><a href="../../news-press/valpolicella-classico-superiore-ognisanti-2018-copy/index.html" title="" class="homeNews__block">
                     <div class="homeNews__featWrap">
-                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="wp-content/uploads/2021/04/ognisanti-3-bicchieri-600x600.jpg" alt="Valpolicella Classico Superiore Ognisanti 2018  Copy"></div>
+                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/04/ognisanti-3-bicchieri-600x600.jpg" alt="Valpolicella Classico Superiore Ognisanti 2018  Copy"></div>
                     </div>
                     <div class="homeNews__date red schnyder demi xxs">13 September 2021</div>
                     <div class="homeNews__textWrap">
@@ -28,7 +28,7 @@
                     </div>
                 </a><a href="../../news-press/valpolicella-classico-superiore-ognisanti-2018/index.html" title="" class="homeNews__block">
                     <div class="homeNews__featWrap">
-                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="wp-content/uploads/2021/04/ognisanti-3-bicchieri-600x600.jpg" alt="Valpolicella Classico Superiore Ognisanti 2018"></div>
+                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/04/ognisanti-3-bicchieri-600x600.jpg" alt="Valpolicella Classico Superiore Ognisanti 2018"></div>
                     </div>
                     <div class="homeNews__date red schnyder demi xxs">14 October 2020</div>
                     <div class="homeNews__textWrap">
@@ -39,7 +39,7 @@
                     </div>
                 </a><a href="../../news-press/amarone-della-valpolicella/index.html" title="" class="homeNews__block">
                     <div class="homeNews__featWrap">
-                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="wp-content/uploads/2021/04/Bertani-Amarone-della-Valpantena-mondus-vini-600x600.jpg" alt="Amarone della Valpolicella Valpantena"></div>
+                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/04/Bertani-Amarone-della-Valpantena-mondus-vini-600x600.jpg" alt="Amarone della Valpolicella Valpantena"></div>
                     </div>
                     <div class="homeNews__date red schnyder demi xxs">23 September 2020</div>
                     <div class="homeNews__textWrap">
@@ -50,7 +50,7 @@
                     </div>
                 </a><a href="../../news-press/soave-vintage-edition-2018/index.html" title="" class="homeNews__block">
                     <div class="homeNews__featWrap">
-                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="wp-content/uploads/2021/04/Bertani-Soave-falstaff-600x600.jpg" alt="Soave Vintage Edition 2018"></div>
+                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/04/Bertani-Soave-falstaff-600x600.jpg" alt="Soave Vintage Edition 2018"></div>
                     </div>
                     <div class="homeNews__date red schnyder demi xxs">18 September 2020</div>
                     <div class="homeNews__textWrap">
@@ -61,7 +61,7 @@
                     </div>
                 </a><a href="../../news-press/ognisanti-valpolicella-classico-superiore-2017/index.html" title="" class="homeNews__block">
                     <div class="homeNews__featWrap">
-                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="wp-content/uploads/2021/04/ognisanti-james-suckling-600x600.jpg" alt="Ognisanti Valpolicella Classico Superiore 2017"></div>
+                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2021/04/ognisanti-james-suckling-600x600.jpg" alt="Ognisanti Valpolicella Classico Superiore 2017"></div>
                     </div>
                     <div class="homeNews__date red schnyder demi xxs">29 July 2020</div>
                     <div class="homeNews__textWrap">
@@ -72,7 +72,7 @@
                     </div>
                 </a><a href="../../news-press/catullo-valpolicella-ripasso/index.html" title="" class="homeNews__block">
                     <div class="homeNews__featWrap">
-                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="wp-content/uploads/2020/04/news-600x636.jpg" alt="Catullo Valpolicella  Ripasso"></div>
+                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2020/04/news-600x636.jpg" alt="Catullo Valpolicella  Ripasso"></div>
                     </div>
                     <div class="homeNews__date red schnyder demi xxs">03 April 2020</div>
                     <div class="homeNews__textWrap">
@@ -83,7 +83,7 @@
                     </div>
                 </a><a href="../../news-press/anteprima-amarone-2016/index.html" title="" class="homeNews__block">
                     <div class="homeNews__featWrap">
-                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="wp-content/uploads/2020/01/anteprima-amarone-2016-600x600.jpg" alt="Anteprima Amarone 2016"></div>
+                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2020/01/anteprima-amarone-2016-600x600.jpg" alt="Anteprima Amarone 2016"></div>
                     </div>
                     <div class="homeNews__date red schnyder demi xxs">29 January 2020</div>
                     <div class="homeNews__textWrap">
@@ -94,7 +94,7 @@
                     </div>
                 </a><a href="../../news-press/amarone-classico-2011/index.html" title="" class="homeNews__block">
                     <div class="homeNews__featWrap">
-                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="wp-content/uploads/2020/01/amarone-classico-2011-james-suckling-600x600.jpg" alt="Amarone Classico 2011"></div>
+                        <div class="homeNews__featOverflow"><img class="homeNews__feat" src="<?php echo site_url(); ?>/wp-content/uploads/2020/01/amarone-classico-2011-james-suckling-600x600.jpg" alt="Amarone Classico 2011"></div>
                     </div>
                     <div class="homeNews__date red schnyder demi xxs">10 January 2020</div>
                     <div class="homeNews__textWrap">

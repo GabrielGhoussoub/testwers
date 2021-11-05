@@ -96,6 +96,22 @@ while (have_posts()) {
         </section>
        </div> <!-- chiusura contenuto per animazione -->
     </main> <!-- chiusura smoothstate -->
+    <script type="text/javascript"> /* Aggiungo classe per pagina all'html */
+ var html = document.querySelector('html'),
+ header = document.querySelector('header');
+ html.classList.remove('archive');
+ html.classList.remove('single');
+ html.classList.remove('bertani');
+ html.classList.remove('contact');
+ html.classList.remove('home');
+ html.classList.remove('style');
+ html.classList.remove('territory');
+ html.classList.remove('wine_sheet');
+ html.classList.remove('wines');
+ html.classList.remove('simple-page');
+ html.classList.remove('single');
+ html.classList.remove('eshop');  html.classList.add('wine_sheet');
+ header.classList.add('beige'); </script> 
 
 <?php get_footer();
 } ?>

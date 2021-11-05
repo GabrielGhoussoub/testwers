@@ -1094,7 +1094,7 @@ pre {
 
 .button--red .button__round {
     background-color: #c2152f;
-    background-image: url(/fiverBertani/wp-content/uploads/images/82262c1138a04ba361ecb08acf25b0d6.svg)
+    background-image: url(/wp-content/uploads/images/82262c1138a04ba361ecb08acf25b0d6.svg)
 }
 
 .button--redWhite .button__label,
@@ -1105,7 +1105,7 @@ pre {
 .button--redWhite .button__round {
     border: 1px solid #fff;
     background-color: #c2152f;
-    background-image: url(/fiverBertani/wp-content/uploads/images/82262c1138a04ba361ecb08acf25b0d6.svg)
+    background-image: url(/wp-content/uploads/images/82262c1138a04ba361ecb08acf25b0d6.svg)
 }
 
 .button--blackWhite .button__label {
@@ -1115,7 +1115,7 @@ pre {
 .button--blackWhite .button__round {
     border: 1px solid #000;
     background-color: transparent;
-    background-image: url(/fiverBertani/wp-content/uploads/images/188807c1aa7ee0dc23d7cfc39b720b6c.svg)
+    background-image: url(/wp-content/uploads/images/188807c1aa7ee0dc23d7cfc39b720b6c.svg)
 }
 
 .button--small .button__round {
@@ -1127,7 +1127,7 @@ pre {
 .button--extrasmall .button__round {
     width: 62px;
     height: 62px;
-    background-image: url(/fiverBertani/wp-content/uploads/images/4cb7a8bf5feca24c0916cf6cce116646.svg);
+    background-image: url(/wp-content/uploads/images/4cb7a8bf5feca24c0916cf6cce116646.svg);
     background-size: 32px 26px
 }
 
@@ -1739,7 +1739,7 @@ span.wpcf7-not-valid-tip {
     transform: translateY(-50%);
     transition: all .15s linear;
     right: 20px;
-    background-image: url(..//fiverBertani/wp-content/uploads/images/svg/form_arrow.html)
+    background-image: url(..//wp-content/uploads/images/svg/form_arrow.html)
 }
 
 .select-styled.active:after {
@@ -1836,7 +1836,7 @@ span.wpcf7-not-valid-tip {
 
 [type=checkbox]:checked+span:before {
     background-color: #fff;
-    background-image: url(/fiverBertani/wp-content/uploads/images/9ce5a05e7dd3644dbe3be68a1aa7b61b.svg)
+    background-image: url(/wp-content/uploads/images/9ce5a05e7dd3644dbe3be68a1aa7b61b.svg)
 }
 
 [type=checkbox]:disabled+span {
@@ -2362,7 +2362,7 @@ span.wpcf7-not-valid-tip {
 }
 
 .progBar__inner {
-    background-image: url(/fiverBertani/wp-content/uploads/images/563655bc9f0da9e3f649a6b33a09c77b.svg);
+    background-image: url(/wp-content/uploads/images/563655bc9f0da9e3f649a6b33a09c77b.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -4358,7 +4358,7 @@ html.home #main_cont {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;
-    background-image: url(/fiverBertani/wp-content/uploads/images/9bf65731e50cbc3269d2a7b419ee1e0b.svg);
+    background-image: url(/wp-content/uploads/images/9bf65731e50cbc3269d2a7b419ee1e0b.svg);
     width: 100%;
     height: 100%;
     -webkit-animation: bussolaAnim 2.7s cubic-bezier(.65, 0, .35, 1) infinite;
@@ -4929,7 +4929,7 @@ html.home #main_cont {
     left: 0;
     transform: translate(-50%, -50%);
     background-color: #fef7ec;
-    background-image: url(/fiverBertani/wp-content/uploads/images/a52e68aaa3c5b14ac08d63b67ae6879d.svg);
+    background-image: url(/wp-content/uploads/images/a52e68aaa3c5b14ac08d63b67ae6879d.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 45px 24px;
@@ -4956,7 +4956,7 @@ html.home #main_cont {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
-    background-image: url(/fiverBertani/wp-content/uploads/images/9a01c63d37683851e5237fe8709cb9c5.svg);
+    background-image: url(/wp-content/uploads/images/9a01c63d37683851e5237fe8709cb9c5.svg);
     height: 100%;
     width: 120%;
     position: relative;
@@ -6492,7 +6492,7 @@ html.home #main_cont {
     background-color: #000;
     background-position: 50%;
     background-repeat: no-repeat;
-    background-image: url(/fiverBertani/wp-content/uploads/images/2381b0b5abb9d22d6af3c66a9cb67294.svg);
+    background-image: url(/wp-content/uploads/images/2381b0b5abb9d22d6af3c66a9cb67294.svg);
     background-size: 36px 43px;
     cursor: pointer
 }

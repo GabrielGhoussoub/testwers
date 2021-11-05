@@ -3,7 +3,7 @@
 <div id="main_cont">
   <section class="homeWrapper" id="home-drag" data-scroll-container>
     <article class="homeSec" id="home-visual" data-scroll-section data-scroll data-header="transparent" data-scroll-repeat="true">
-      <div class="homeSec__inner vis"><video class="vis__vid" id="home-video-1" data-src="/bert-loop-3.mp4" muted loop playsinline autoplay poster="wp-content/uploads/video/poster.jpg">
+      <div class="homeSec__inner vis"><video class="vis__vid" id="home-video-1" data-src="wp-content/uploads/bert-loop-3.mp4" muted loop playsinline autoplay poster="wp-content/uploads/video/poster.jpg">
           <source src="#" type="video/mp4" />
           <p>Your user agent does not support the HTML5 Video element.</p>
         </video>

@@ -8462,7 +8462,7 @@
                     function i(t, e, i) {
                         var r = "";
                         if (t.e) r = t.p;
-                        else if (e) { var n = t.p; - 1 !== n.indexOf("/fiverBertani/wp-content/uploads/images/") && (n = n.split("/")[1]), r = e + n } else r = i, r += t.u ? t.u : "", r += t.p;
+                        else if (e) { var n = t.p; - 1 !== n.indexOf("wp-content/uploads/images/") && (n = n.split("/")[1]), r = e + n } else r = i, r += t.u ? t.u : "", r += t.p;
                         return r
                     }
 
@@ -10392,7 +10392,7 @@
             }, AnimationItem.prototype.resetSegments = function(t) { this.segments.length = 0, this.segments.push([this.animationData.ip, this.animationData.op]), t && this.checkSegments(0) }, AnimationItem.prototype.checkSegments = function(t) { return !!this.segments.length && (this.adjustSegment(this.segments.shift(), t), !0) }, AnimationItem.prototype.destroy = function(t) { t && this.name !== t || !this.renderer || (this.renderer.destroy(), this.imagePreloader.destroy(), this.trigger("destroy"), this._cbs = null, this.onEnterFrame = null, this.onLoopComplete = null, this.onComplete = null, this.onSegmentStart = null, this.onDestroy = null, this.renderer = null, this.renderer = null, this.imagePreloader = null, this.projectInterface = null) }, AnimationItem.prototype.setCurrentRawFrameValue = function(t) { this.currentRawFrame = t, this.gotoFrame() }, AnimationItem.prototype.setSpeed = function(t) { this.playSpeed = t, this.updaFrameModifier() }, AnimationItem.prototype.setDirection = function(t) { this.playDirection = t < 0 ? -1 : 1, this.updaFrameModifier() }, AnimationItem.prototype.setVolume = function(t, e) { e && this.name !== e || this.audioController.setVolume(t) }, AnimationItem.prototype.getVolume = function() { return this.audioController.getVolume() }, AnimationItem.prototype.mute = function(t) { t && this.name !== t || this.audioController.mute() }, AnimationItem.prototype.unmute = function(t) { t && this.name !== t || this.audioController.unmute() }, AnimationItem.prototype.updaFrameModifier = function() { this.frameModifier = this.frameMult * this.playSpeed * this.playDirection, this.audioController.setRate(this.playSpeed * this.playDirection) }, AnimationItem.prototype.getPath = function() { return this.path }, AnimationItem.prototype.getAssetsPath = function(t) {
                 var e = "";
                 if (t.e) e = t.p;
-                else if (this.assetsPath) { var i = t.p; - 1 !== i.indexOf("/fiverBertani/wp-content/uploads/images/") && (i = i.split("/")[1]), e = this.assetsPath + i } else e = this.path, e += t.u ? t.u : "", e += t.p;
+                else if (this.assetsPath) { var i = t.p; - 1 !== i.indexOf("wp-content/uploads/images/") && (i = i.split("/")[1]), e = this.assetsPath + i } else e = this.path, e += t.u ? t.u : "", e += t.p;
                 return e
             }, AnimationItem.prototype.getAssetData = function(t) {
                 for (var e = 0, i = this.assets.length; e < i;) {
